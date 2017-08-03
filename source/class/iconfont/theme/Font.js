@@ -30,7 +30,25 @@ qx.Theme.define("iconfont.theme.Font",
           ]
         }
       ]
+    },
+    "FontAwesome32": {
+      size: 32,
+      lineHeight: 1,
+      comparisonString : "\uf1e3\uf1f7\uf11b\uf19d",
+      family: ["FontAwesome"],
+      sources: [
+        {
+          family: "FontAwesome",
+          source: [
+            "iconfont/fonts/fontawesome-webfont.ttf" ,
+            "iconfont/fonts/fontawesome-webfont.woff",
+            "iconfont/fonts/fontawesome-webfont.woff2",
+            "iconfont/fonts/fontawesome-webfont.eot"
+          ]
+        }
+      ]
     }
+
 
   }
 });

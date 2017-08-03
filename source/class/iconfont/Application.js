@@ -55,16 +55,26 @@ qx.Class.define("iconfont.Application",
 
       // Create a button
       var button1 = new qx.ui.form.Button("First Button", "@FontAwesome/f085");
+      // Create a second button with a bigger icon
+      var button2 = new qx.ui.form.Button("Second Button", "@FontAwesome32/f085");
+
+      button2.getChildControl("icon").setTextColor("red");
 
       // Document is the application root
       var doc = this.getRoot();
 
-      // Add button to document at fixed coordinates
+      // Add the buttons to document at fixed coordinates
       doc.add(button1, {left: 100, top: 50});
+      doc.add(button2, {left: 100, top: 100});
 
-      // Add an event listener
+
+      // Add an event listener to each button
       button1.addListener("execute", function(e) {
         alert("Hello World!");
+      });
+	
+      button2.addListener("execute", function(e) {
+        alert("Hello World 2!");
       });
     }
   }
