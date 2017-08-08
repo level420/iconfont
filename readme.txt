@@ -1,6 +1,14 @@
 Desktop Skeleton - A qooxdoo Application Template using FontAwesome icon fonts
 ==============================================================================
 
+!!!! WARNING !!!!
+
+You have to use current qooxdoo master from github to have icon font support.
+
+IT WILL NOT WORK WITH QOOXDOO RELEASESES BEFORE AND INCLUDING 5.0.2 
+
+!!!! WARNING !!!!
+
 This is a qooxdoo application skeleton which is used as a template. The 
 'create-application.py' script (usually under tool/bin/create-application.py)
 will use this and expand it into a self-contained qooxdoo application which 
