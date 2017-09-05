@@ -5,7 +5,7 @@ Desktop Skeleton - A qooxdoo Application Template using FontAwesome icon fonts
 
 You have to use current qooxdoo master from github to have icon font support.
 
-IT WILL NOT WORK WITH QOOXDOO RELEASESES BEFORE AND INCLUDING 5.0.2 
+IT WILL NOT WORK WITH QOOXDOO RELEASES BEFORE AND INCLUDING 5.0.2 
 
 !!!! WARNING !!!!
 
